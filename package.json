@@ -29,8 +29,10 @@
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "joiful": "^3.0.2",
     "jsonapi-serializer": "^3.6.7",
     "mysql": "^2.18.1",
+    "reflect-metadata": "^0.1.13",
     "ts-custom-error": "^3.2.0",
     "typeorm": "^0.2.38"
   }
