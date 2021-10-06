@@ -18,6 +18,7 @@
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "jsonapi-serializer": "^3.6.7",
     "ts-custom-error": "^3.2.0"
   }
 }
