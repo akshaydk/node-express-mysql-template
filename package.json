@@ -10,6 +10,7 @@
     "start": "nodemon src/server.ts",
     "test": "jest --runInBand",
     "test:coverage": "jest --runInBand --coverage",
+    "db": "typeorm --config ./dist/db/ormconfig.js",
     "lint": "eslint 'src/**/*.ts'",
     "lint:fix": "eslint --fix 'src/**/*.ts'"
   },
