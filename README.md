@@ -5,7 +5,7 @@
 ## Architecture Diagram
 
 ## API
-- `GET /api/v1/hello` -> returns a reply for the given message.
+- `GET /api/v1/*` -> This is just a placeholder to show how a request and response JSON looks like.
 
   Sample Request Body
   ```
@@ -13,7 +13,6 @@
     "data": {
         "type": "replies",
         "attributes": {
-          "message": "hello"
         }
     }
   }
@@ -24,9 +23,8 @@
   {
     "meta": {},
     "data": {
-        "type": "replies",
+        "type": "reply",
         "attributes": {
-            "reply": "Hello there! How are you?"
         }
     }
   }
